@@ -19,7 +19,7 @@ const options = {
 	useNewUrlParser: true,
 };
 
-// CONNECT TO LOCALHOST
+// THIS WORKS TO CONNECT TO MONGODB ON LOCALHOST
 // mongoose.connect('mongodb://localhost:27017/todolistDB', options);
 
 //THIS WORKS TO CONNECT TO MONGO ATLAS (HOSTED DATABASE)!
