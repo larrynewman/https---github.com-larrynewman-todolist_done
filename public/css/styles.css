@@ -2,7 +2,7 @@ html {
   background-color: #ddd;
   /* background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
   min-height: 1000px;
-  font-family: 'helvetica neue';
+  font-family: "helvetica neue";
 }
 
 h1 {
@@ -27,14 +27,14 @@ h1 {
   min-height: 50px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #F1F1F1;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .item:last-child {
   border-bottom: 0;
 }
 
-input:checked+p {
+input:checked + p {
   text-decoration: line-through;
   text-decoration-color: rgb(65, 87, 229);
 }
@@ -91,16 +91,14 @@ input[type="text"]:focus {
 
 footer {
   color: white;
-  color: rgba(0, 0, 0, 0.5);
   text-align: center;
 }
-
 
 /* ORIGINAL CSS
 html {
   background-color: #ddd;
   /* background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%); */
-  /* min-height: 1000px;
+/* min-height: 1000px;
   font-family: 'helvetica neue';
 }
 
@@ -192,4 +190,4 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
-} */ */
+} */
